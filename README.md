@@ -1,6 +1,14 @@
 # awasomething
 フォロワー向け各種生成AIやバイブコーディング系に役立つリポジトリ・サイトまとめ
 ## エージェント系
+ChatGPTとかClaudeとかをウェブから開くとAIたちの持つ実行環境が私たちの実行環境と異なる故の会話のすれ違いが起こるが、CLIツールを用いることでローカルのフォルダを開かせることができ、何かと便利。WSL上で実行すれば各種コマンド実行とも好相性。マジでバイブコーディングするならどれか一つは欲しい
+### CLIツール
+- [Codex](https://github.com/openai/codex) ：OpenAIの提供するコーディングエージェント。ChatGPTに課金済なら使えるはず
+- [Claude Code](https://github.com/anthropics/claude-code) ：Anthropicsの提供するコーディングエージェント。Claude課金が必要、質自体はとてもいい。あとカニがかわいい
+- [Gemini CLI](https://github.com/google-gemini/gemini-cli) ：Googleの提供するコーディングエージェント。三強の中で唯一無料でも使用可能
+- [opencode](https://github.com/anomalyco/opencode) ：他3つに比べ大幅に安価に使える
+
+### プラグイン
 ChatGPTに課金してるならCodexが使えるはず、ここに以下に示すプラグインを導入することで開発体験をより向上することができるはず
 - [Ponytail](https://github.com/DietrichGebert/ponytail) ：コーディングエージェントにより簡潔で保守性に優れたコードを書かせる指示をするためのプラグイン。導入後、/ponytailをチャットで実行すること
 
